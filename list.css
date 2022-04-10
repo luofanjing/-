@@ -1,0 +1,134 @@
+/* 列表页专有的css */
+
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    padding: 3px 0 0 14px;
+    border-left: 1px solid #c81523;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e930';
+    font-family: 'icomoon';
+}
+
+.sk_bd ul li {
+    position: relative;
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_bd ul li h3 {
+    font-weight: 400;
+    color: #666;
+    font-size: 14px;
+    font-family: '宋体';
+    padding: 10px;
+}
+
+.goods_price {
+    padding: 0 10px;
+}
+
+.sk_bd ul li p em {
+    color: #e60012;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "microsoft yahei";
+    margin-right: 8px;
+}
+
+.sk_bd ul li p del {
+    color: #a4a4a4;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sk_bd ul li div i {
+    color: #e12228;
+}
+
+.goods_progress {
+    padding: 0 10px;
+}
+
+.sk_bd ul li .bar {
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #e12228;
+    border-radius: 6px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.sk_bd ul li .bar .bar_in {
+    width: 87%;
+    height: 100%;
+    background-color: #b1191a;
+}
+
+.goods_buy {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 20px;
+    font-family: '宋体';
+    text-align: center;
+}
+
+.goods_buy:hover {
+    color: #fff;
+}
